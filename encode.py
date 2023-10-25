@@ -1,4 +1,6 @@
 # Howard Miller
+run = True
+
 def encoder(password):
     # empty string of the new encoded password
     new_password = ""
@@ -21,3 +23,6 @@ def encoder(password):
     # returns the new_password
     return new_password
 
+while run == True:
+    raw = input("Enter value to encode: ")
+    print(encoder(raw))
