@@ -21,6 +21,3 @@ def decoder(password):
     # returns the old password
     return old_password
 
-while run == True:
-    raw = input("Enter value to encode: ")
-    print(decoder(raw))
